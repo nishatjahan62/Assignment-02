@@ -10,8 +10,8 @@
     font-weight: <weight>;
     font-style: normal;
   }
-  /* hide the menu icon */
-  .menu-icon{
+  /* hide the menu icon and hr*/
+  .menu-icon,hr{
     display: none;
   }
   /* Colors */
@@ -90,5 +90,12 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+}
+hr{
+    display: flex;
+    border: none;
+    background-color: #FEA301;
+    height: 1px;
+    margin-top: 20px;
 }
 }
