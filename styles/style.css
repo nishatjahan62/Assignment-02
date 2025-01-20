@@ -1,0 +1,94 @@
+*{
+    margin: 0 ;
+}
+
+
+/* Font from google */
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  /* hide the menu icon */
+  .menu-icon{
+    display: none;
+  }
+  /* Colors */
+  .black{
+      color: #111111;
+  }
+  .black-2.0{
+    color: #000000;
+  }
+  /* } common Button */
+  .black-btn{
+    background-color: #111111;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+  }
+  /* Nav Section */
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  nav>div{
+    display: flex;
+  }
+  .nav-title{
+    font-size: 32px;
+  font-weight: bold;
+  }
+  .nav-menu{
+    font-size: 20px;
+    font-weight: medium;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  nav>ul>li>a{
+    text-decoration: none;
+  }
+  .nav-btn{
+    background-color:#FEA301 ;
+    color:#FFFFFF ;
+    padding:10px ;
+    font-size:20px ;
+    font-weight: semibold;
+    border: none;
+    border-radius:12px ;
+    width: 170px;
+    height: 40px;
+  }
+  .Home{
+    color:#FEA301 ;
+  }
+  .About{
+    color: #01ACFD;
+  }
+  .Facilities{
+    color: #05D4DF;
+  }
+  .Admission{
+    color:#5D58EF ;
+  }
+  /* Responsive Section for Mobile Phone */
+@media screen and (max-width: 576px) {
+    .nav-title, .nav-menu,.nav-btn{
+        display: none;
+    }
+    .menu-icon{
+        display: flex;
+}  
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+}
