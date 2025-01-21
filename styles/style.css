@@ -1,5 +1,5 @@
-*{
-    margin: 0 ;
+* {
+    margin: 0;
 }
 
 
@@ -9,22 +9,25 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  }
-  /* hide the menu icon and hr*/
-  .menu-icon,hr{
+}
+
+/* hide the menu icon and hr*/
+.menu-icon,
+hr {
     display: none;
-  }
-  /* Colors */
-  .black{
-      color: #111111;
-  }
-  
-  .black-light{
+}
+
+/* Colors */
+.black {
+    color: #111111;
+}
+
+.black-light {
     color: #000000;
-  }
- 
-  /* } common Button */
-  .black-btn{
+}
+
+/* } common Button */
+.black-btn {
     background-color: #111111;
     color: #FFFFFF;
     padding: 10px;
@@ -32,133 +35,299 @@
     border-radius: 12px;
     width: 170px;
     height: 40px;
-  }
-  /* Nav Section */
-  .navbar{
+}
+body{
+    background-color: #f7f7f7;
+}
+
+/* Nav Section */
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-  }
-  nav>div{
+}
+
+nav>div {
     display: flex;
-  }
-  .nav-title{
+}
+
+.nav-title {
     font-size: 32px;
-  font-weight: bold;
-  padding-top: 15px;
-  }
-  .nav-menu{
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.nav-menu {
     font-size: 20px;
     font-weight: medium;
     list-style: none;
     display: flex;
     gap: 15px;
-  }
-  nav>ul>li>a{
+}
+
+nav>ul>li>a {
     text-decoration: none;
-  }
-  .nav-btn{
-    background-color:#FEA301 ;
-    color:#FFFFFF ;
-    padding:10px ;
-    font-size:20px ;
+}
+
+.nav-btn {
+    background-color: #FEA301;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 20px;
     font-weight: semibold;
     border: none;
-    border-radius:12px ;
+    border-radius: 12px;
     width: 170px;
     height: 40px;
-  }
-  .Home{
-    color:#FEA301 ;
-  }
-  .About{
+}
+
+.Home {
+    color: #FEA301;
+}
+
+.About {
     color: #01ACFD;
-  }
-  .Facilities{
+}
+
+.Facilities {
     color: #05D4DF;
-  }
-  .Admission{
-    color:#5D58EF ;
-  }
+}
 
-    /* Banner Section */
-    .banner{
-        display: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 120px;
-        margin-top: 30px;
-        gap: 60px;
-    }
-    .banner-title{
-        font-size: 55px;
-        font-weight: bold;
-    }
-    .empower{
-        color:#FEA301 ;
-    }
-    .towards-vision{
-        color: #01ACFD;
-    }
-    .banner-text{
-        font-size:18px ;
-        font-weight:regular;
-        padding-top: 25px;
-        padding-bottom: 25px;
+.Admission {
+    color: #5D58EF;
+}
 
-    }
-        /* Responsive Section for Mobile Phone */
-
-@media screen and (max-width: 576px) {
-    .nav-title, .nav-menu,.nav-btn{
-        display: none;
-    }
-    .menu-icon{
-        display: flex;
-}  
-.navbar{
+/* Banner Section */
+.banner {
+    display: none;
     display: flex;
-    justify-content: space-between;
-    max-width: 100%;
-    margin-top: 20px; 
-    margin-left: 20px;
-    margin-right: 20px;
-    
+    justify-content: space-around;
+    align-items: center;
+    margin: 105px;
+    margin-top: 30px;
+    gap: 60px;
 }
-hr{
-    display: flex;
-    border: none;
-    background-color: #FEA301;
-    height: 1px;
-    margin-top: 20px;
-    max-width: 100%;
-}
-.banner{ 
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-top: 20px;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0%;
 
-
+.banner-title {
+    font-size: 55px;
+    font-weight: bold;
 }
-.banner-description{
+
+.empower {
+    color: #FEA301;
+}
+
+.towards-vision {
+    color: #01ACFD;
+}
+
+.banner-text {
+    font-size: 18px;
+    font-weight: regular;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* main Section */
+main {
+    background-image: url(../assets/bg.png);
+   
+}
+
+/* Card Section */
+.curriculum {
+    font-size: 45px;
+    font-weight: bold;
     text-align: center;
-    max-width:80%;
-    padding-left: 0%;
-    padding-right: 0%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 105px;
+    gap: 25px;
+    background-image: url(../assets/bg.png);
+}
+
+.cards {
+    border: none;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 360px;
+    height: 470px;
+}
+.card-img{
+    padding-top: 30px;
 } 
 
-.banner-title{
-    font-size: 40px;
+.card-title {
+    font-size:24px ;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #202020;
 }
-.banner-text{
+.card-title-1{
+    font-size:24px ;
+    font-weight: bold;
+    padding-top: 15px;
+    color: #202020;
+}
+
+.card-info {
     font-size: 15px;
+    font-weight: medium;
+    padding-top: 30px;
+    color: #808080;
 }
-.banner-img{
-    max-width: 100%;
+
+.card-1-read-more {
+    color:#64C8FF ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-2-read-more {
+    color:#F0AA00 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-3-read-more {
+    color:#8700FF ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card-1{
+    background-image: linear-gradient(#DEF5FF 30%, #FFFFFF 70%)
+    
+}
+.card-2{
+    background-image: linear-gradient(#FFF4DC 30%, #FFFFFF 70%);
+}
+.card-3{
+    background-image: linear-gradient(#F2E8FF 30%, #FFFFFF 70%);
+}
+.icon-container{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 30px;
+    color: #FFFFFF;
+    align-items: center;
+}
+#less-than-icon{
+    background-color: #FEA301;
+    border: none;
+    width: 70px;
+    height: 55px;
+    border-radius: 50%;
+    padding-top: 25px;
+}
+#greater-than-icon{
+    background-color: #FEA301;
+    border: none;
+    width: 70px;
+    height: 55px;
+    border-radius: 50%;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Section for Mobile Phone */
+
+@media screen and (max-width: 576px) {
+
+    .nav-title,
+    .nav-menu,
+    .nav-btn,
+    .icon-container{
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+
+    }
+
+    hr {
+        display: flex;
+        border: none;
+        background-color: #FEA301;
+        height: 1px;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0%;
+
+
+    }
+
+    .banner-description {
+        text-align: center;
+        max-width: 80%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .banner-title,
+    .curriculum {
+        font-size: 32px;
+        padding: 0;
+    }
+
+    .banner-text {
+        font-size: 15px;
+    }
+
+    .banner-img {
+        max-width: 90%;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .card-section{
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0%;
+    }
+    main{
+        margin: 0%;
+        background-image: none;
+    }
 }
