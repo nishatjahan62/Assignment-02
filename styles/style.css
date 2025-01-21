@@ -18,9 +18,11 @@
   .black{
       color: #111111;
   }
-  .black-2.0{
+  
+  .black-light{
     color: #000000;
   }
+ 
   /* } common Button */
   .black-btn{
     background-color: #111111;
@@ -28,6 +30,8 @@
     padding: 10px;
     border: none;
     border-radius: 12px;
+    width: 170px;
+    height: 40px;
   }
   /* Nav Section */
   .navbar{
@@ -42,6 +46,7 @@
   .nav-title{
     font-size: 32px;
   font-weight: bold;
+  padding-top: 15px;
   }
   .nav-menu{
     font-size: 20px;
@@ -76,7 +81,35 @@
   .Admission{
     color:#5D58EF ;
   }
-  /* Responsive Section for Mobile Phone */
+
+    /* Banner Section */
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 120px;
+        margin-top: 30px;
+        gap: 60px;
+    }
+    .banner-title{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .empower{
+        color:#FEA301 ;
+    }
+    .towards-vision{
+        color: #01ACFD;
+    }
+    .banner-text{
+        font-size:18px ;
+        font-weight:regular;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+        /* Responsive Section for Mobile Phone */
+
 @media screen and (max-width: 576px) {
     .nav-title, .nav-menu,.nav-btn{
         display: none;
@@ -97,5 +130,21 @@ hr{
     background-color: #FEA301;
     height: 1px;
     margin-top: 20px;
+}
+.banner{
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.banner-description{
+    text-align: center;
+}
+.banner-title{
+    font-size: 45px;
+}
+.banner-text{
+    font-size: 15px;
 }
 }
