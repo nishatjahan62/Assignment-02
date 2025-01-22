@@ -12,8 +12,7 @@
 }
 
 /* hide the menu icon and hr*/
-.menu-icon,
-hr {
+.hide{
     display: none;
 }
 
@@ -238,6 +237,9 @@ main {
 }
 
      /* Story Section */
+     .Section-3{
+        background-image: linear-gradient( to top,#FFDDA0 30%,#f7f7f7 70%);
+     }
      .our-stories{
         font-size:45px ;
         font-weight:bold ;
@@ -252,64 +254,40 @@ main {
       align-items: center;
       margin-bottom: 60px ;
      }
+     .big-card{
+        width: 520px;
+        height: 550px;
+        border: none;
+        border-radius: 16px;
+        background-color:#FFFFFF ;
+     }
+
      .small-card-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
      }
-    
-     .big-card{
-        width: 520px;
-        height: 550px;
-        border: 1px solid red;
-        border-radius: 16px;
-        background-color:#FFFFFF ;
-    
-      
-        
-     }
+     
      .small-card{
         width: 260px;
         height: 260px;
-        border: 1px solid red;
+        border: none;
         border-radius: 16px;
         background-color: #FFFFFF;
-       
      }
+
      .story-img{
         width: 100%;
         height: 50%;
         object-fit: cover;
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
-       
      }
-     .big-card-img{
+     .big-card-img-with-btn{
         overflow: visible;
         position: relative;
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
-     }
-     .big-card-title{
-        font-size: 24px ;
-        font-weight:bold ;
-        padding: 20px;
-        margin-top: 20px;
-        margin-left: 20px;
-     }
-     .big-card-text{
-        font-size: 15px ;
-        font-weight: medium ;
-        margin-left: 20px;
-        padding: 20px;
-        padding-bottom: 20px;
-        color: #666666;
-     }
-
-     .small-card-title{
-        font-size: 15px ;
-        font-weight: bold ;
-        padding: 20px;
      }
      .big-card-btn{
         display: inline-block;
@@ -323,8 +301,54 @@ main {
         border-radius:40px ;
         font-size: 15px;
         bottom: -20px;
-        left: 20px;
+        left: 10px;
      }
+     .big-card-title{
+        font-size: 24px ;
+        font-weight:bold ;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+     }
+     .big-card-text{
+        font-size: 15px ;
+        font-weight: medium ;
+        margin-left: 10px;
+        padding: 20px;
+        padding-bottom: 20px;
+        color: #666666;
+     }
+
+     .small-card-title{
+        font-size: 15px ;
+        font-weight: bold ;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+     }
+.small-card-img-with-btn{
+    overflow: visible;
+    position: relative;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+     .small-card-btn{
+        display: inline-block;
+        margin-left: 20px;
+        color: #FFFFFF;
+        position: absolute;
+        cursor: pointer;
+        background-color:#95B226;
+        padding:15px 20px ;
+        border: none;
+        border-radius:40px ;
+        font-size: 15px;
+        bottom: -20px;
+        left: 10px;
+     }
+    .small-card-btn-2{
+        background-color:#5D58F0 ;
+    }
 
      .black-btn-2{
         display: flex;
@@ -341,7 +365,8 @@ main {
     .nav-title,
     .nav-menu,
     .nav-btn,
-    .icon-container{
+    .icon-container,
+    .big-card{
         display: none;
     }
 
@@ -378,8 +403,6 @@ main {
         padding-left: 0;
         padding-right: 0%;
         margin-bottom: 30px;
-
-
     }
 
     .banner-description {
@@ -394,10 +417,7 @@ main {
         font-size: 32px;
         padding: 0;
     }
-    /* .curriculum {
-        margin-top: px;
-    } */
-
+    
     .banner-text {
         font-size: 15px;
     }
@@ -413,7 +433,7 @@ main {
         max-width: 100%;
         height: auto;
         margin-top: 25px;
-
+        margin-bottom: 10px;
     }
     .cards {
         max-width: 330px;
@@ -426,4 +446,47 @@ main {
     font-size: 13px;
     padding: 10px;
 }
+.story-section{
+    margin-bottom: 20px;
+}
+.our-stories{
+    font-size:32px ;
+    margin-top:20px ;
+    margin-bottom:20px ;
+ }
+
+.small-card-container,{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+.small-card, .extra-small-card{
+    margin-left: 0%;
+    margin-right: 0;
+    max-width: 180px;
+   height:auto;
+}
+.small-card-btn{
+    font-size: 12px;
+    padding: 10px;
+    left: 0px;
+    bottom: -10px;
+
+}
+.small-card-title{
+    font-size: 12px ;
+    font-weight: bold ;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 12px;
+ }
+ .black-btn-2{
+    margin-top: 0;
+ }
+ .extra-small-card{
+    display: block;
+ }
+
+ 
 }
