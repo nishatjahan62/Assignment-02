@@ -135,6 +135,8 @@ main {
 }
 
 /* Card Section */
+
+
 .curriculum {
     font-size: 45px;
     font-weight: bold;
@@ -237,8 +239,11 @@ main {
 }
 
      /* Story Section */
+
      .Section-3{
         background-image: linear-gradient( to top,#FFDDA0 30%,#f7f7f7 70%);
+      
+
      }
      .our-stories{
         font-size:45px ;
@@ -252,7 +257,7 @@ main {
       gap: 30px;
       justify-content: center;
       align-items: center;
-      margin-bottom: 60px ;
+      margin-bottom: 40px ;
      }
      .big-card{
         width: 520px;
@@ -275,7 +280,6 @@ main {
         border-radius: 16px;
         background-color: #FFFFFF;
      }
-
      .story-img{
         width: 100%;
         height: 50%;
@@ -295,7 +299,7 @@ main {
         color: #FFFFFF;
         position: absolute;
         cursor: pointer;
-        background-color:#3CD8E8 ;
+        background-color: #04cce2 ;
         padding:15px 20px ;
         border: none;
         border-radius:40px ;
@@ -338,7 +342,7 @@ main {
         color: #FFFFFF;
         position: absolute;
         cursor: pointer;
-        background-color:#3CD8E8;
+        background-color:#04cce2;
         padding:15px 20px ;
         border: none;
         border-radius:40px ;
@@ -350,12 +354,85 @@ main {
         background-color:#5D58F0 ;
     }
 
-     .black-btn-2{
+     .section-btn{
         display: flex;
         justify-content: center;
+         padding: 30px;
      }
      
+       /* Footer Section */
+     footer{
+        background-color: #01ACFD;
+        height: 500px;
+       
+     }
+     .footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 50px;
+        padding-top: 100px;
+     
 
+     }
+     .kids-education-section{
+        display: block;
+        max-width: 400px;
+     }
+    .kids-education-with-logo{
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 20px;
+        padding-top: 45px;
+    }
+     .kids-education{
+        font-size: 45px;
+        font-weight: bold;
+        color: #FFFFFF;
+        line-height: 39px;
+       
+     }
+     .footer-text{
+        font-size: 20px;
+        font-weight: regular;
+        color: #FFFFFF;
+    
+     }
+     .ul-container{
+        list-style: none;
+        font-size: 20px;
+        font-weight: medium;
+        color: #FFFFFF;
+     }
+     .footer-items{
+        padding-bottom: 20px;
+     }
+    .footer-links{ 
+        color: #FFFFFF;
+        padding-bottom: 20px;
+        text-decoration: none;
+     }
+     .footer-heading-link{
+        font-size: 25px;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+        margin-top: 50px;
+     }
+    .footer-logo{
+        margin-bottom: 70px;
+    }
+     .footer-heading-img{
+        font-size: 25px;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+     }
+     marquee{
+        overflow: hidden;
+        animation: scroll 5s linear infinite;
+     }
+     
 
 
 /* Responsive Section for Mobile Phone */
@@ -490,5 +567,22 @@ main {
  .small-card-btn-3, .small-card-btn-4{
     background-color:#95B226 ;
  }
- 
+
+footer{
+ height: auto;   
+}
+.footer{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    margin-top: 0;
+    padding-top: 50px;
+}
+.ul-container{
+    margin-left: 0;
+    padding-left: 0;
+}
+.footer-heading-link{
+    margin-top: 0;
+}
 }
